@@ -356,13 +356,8 @@ function SpaceShell() {
     navigate,
     redirectKeepingOverlay,
   });
-  const { notifyBrowserForEvent, flushPendingBrowserNotifications } = useBrowserNotifications(
-    botsRef,
-    bots,
-    inGroup ? undefined : active?.id,
-    shellSpaceId ?? undefined,
-    navigate,
-  );
+  const { notifyBrowserForEvent, flushPendingBrowserNotifications } =
+    useBrowserNotifications(botsRef);
   const { speakingMessageId, speakMessage } = useReadAloud({
     active,
     snapshot,

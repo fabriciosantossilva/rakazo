@@ -4007,11 +4007,6 @@ msgstr ""
 msgid "Needs an OAuth client ID"
 msgstr "Нужен идентификатор клиента OAuth"
 
-#. js-lingui-explicit-id
-#: src/lib/browser-notifications.ts
-msgid "Needs attention"
-msgstr "Требует внимания"
-
 #: src/pages/ActivityList.tsx
 msgid "Needs input"
 msgstr "Требуется ввод данных"
